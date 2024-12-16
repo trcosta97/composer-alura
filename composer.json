@@ -1,0 +1,11 @@
+{
+    "name": "trcosta97/buscador-cursos",
+    "description": "curso da alura de composer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Trcosta97\\BuscadorCursos\\": "src/"
+        }
+    },
+    "require": {}
+}
