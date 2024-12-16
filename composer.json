@@ -3,9 +3,16 @@
     "description": "curso da alura de composer",
     "type": "library",
     "autoload": {
+        "files": [
+            "functions.php"
+        ],
         "psr-4": {
             "Trcosta97\\BuscadorCursos\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "*",
+        "symfony/dom-crawler": "*",
+        "symfony/css-selector": "^7.2"
+    }
 }
